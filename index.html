@@ -1,23 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Janice Kemunto Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Janice Kemunto | SOC Analyst Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <img src="images/profile.jpg" alt="Profile Photo" width="200">
-    <h1>Janice Kemunto</h1>
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+    <h2>Technical Skills</h2>
 
-    <h3>SOC Analyst | Cybersecurity Professional | Cloud Security Analyst</h3>
+    <div class="grid">
 
-    <p>
-        Passionate cybersecurity professional with hands-on experience in
-        Security Operations, Incident Response, Threat Intelligence,
-        SIEM Engineering, and Cloud Security.
-    </p>
-</header>
+        <div class="box">
+            <h3>Security Operations</h3>
+            <p>Incident Response, Threat Hunting, SOC Monitoring, Log Analysis</p>
+        </div>
+
+        <div class="box">
+            <h3>SIEM & Monitoring</h3>
+            <p>Wazuh, Microsoft Sentinel, Splunk, ELK Stack</p>
+        </div>
+
+        <div class="box">
+            <h3>Threat Intelligence</h3>
+            <p>TheHive, Cortex, VirusTotal, URLScan, Abuse.ch</p>
+        </div>
+
+        <div class="box">
+            <h3>Malware Analysis</h3>
+            <p>Basic malware behavior analysis, IOC extraction, sandbox investigation, file analysis</p>
+        </div>
+
+        <div class="box">
+            <h3>Phishing Analysis</h3>
+            <p>Email header analysis, URL inspection, sender reputation checks, PhishTool, VirusTotal</p>
+        </div>
+
+        <div class="box">
+            <h3>Cloud & Networking</h3>
+            <p>Microsoft Azure, AWS (In Progress), Wireshark, TCP/IP, DNS, Nmap</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+    <h2>Cybersecurity Projects</h2>
+
+    <div class="card">
+        <h3>Azure Cyber Defense Lab</h3>
+        <p>
+            Built a cloud-based SOC environment in Microsoft Azure using Windows Server
+            and Windows 10 endpoints for security monitoring and analysis.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Wazuh SIEM Deployment</h3>
+        <p>
+            Configured Wazuh SIEM with Windows agents to collect logs, detect threats,
+            and monitor security events in real time.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>TheHive & Cortex Threat Intelligence Platform</h3>
+        <p>
+            Implemented a threat intelligence and incident response system for case management,
+            enrichment, and investigation workflows.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Phishing Investigation Lab</h3>
+        <p>
+            Investigated suspicious emails using header analysis, URL scanning, and reputation checks
+            to detect phishing attempts and extract indicators of compromise (IOCs).
+        </p>
+    </div>
+
+</section>
+
+<!-- ================= LABS ================= -->
+<section id="labs">
+    <h2>Lab Challenges & CTF Work</h2>
+
+    <div class="card">
+        <h3>Phishing Email Investigation</h3>
+        <p><strong>Objective:</strong> Investigate suspicious email for phishing indicators.</p>
+        <p><strong>Tools:</strong> VirusTotal, PhishTool, URLScan</p>
+        <p><strong>Outcome:</strong> Identified malicious links, spoofed sender behavior, and extracted IOCs.</p>
+    </div>
+
+    <div class="card">
+        <h3>Malware Behavior Analysis (Basic)</h3>
+        <p><strong>Objective:</strong> Analyze suspicious file behavior and identify malicious patterns.</p>
+        <p><strong>Tools:</strong> VirusTotal, Sandbox tools, Windows environment</p>
+        <p><strong>Outcome:</strong> Identified suspicious execution behavior, file indicators, and potential persistence techniques.</p>
+    </div>
+
+    <div class="card">
+        <h3>Network Traffic Analysis</h3>
+        <p><strong>Objective:</strong> Analyze packet capture for suspicious network activity.</p>
+        <p><strong>Tools:</strong> Wireshark, TCPDump, Nmap</p>
+        <p><strong>Outcome:</strong> Detected abnormal traffic patterns and identified indicators of compromise.</p>
+    </div>
+
+    <div class="card">
+        <h3>Windows Incident Response Simulation</h3>
+        <p><strong>Objective:</strong> Simulated endpoint compromise and performed SOC investigation.</p>
+        <p><strong>Tools:</strong> TheHive, Windows, Linux</p>
+        <p><strong>Outcome:</strong> Completed triage, containment, eradication, and reporting workflow.</p>
+    </div>
+
+    <div class="card">
+        <h3>ELK Stack Security Monitoring</h3>
+        <p><strong>Objective:</strong> Build centralized log monitoring system.</p>
+        <p><strong>Tools:</strong> Elasticsearch, Logstash, Kibana</p>
+        <p><strong>Outcome:</strong> Created dashboards for security event visualization and detection.</p>
+    </div>
+
+</section>
 
 </body>
 </html>
