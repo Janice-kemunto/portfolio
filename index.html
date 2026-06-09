@@ -4,34 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Janice Kemunto | Cybersecurity Analyst Portfolio</title>
+<title>Janice Kemunto | Cybersecurity Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ================= HERO SECTION ================= -->
+<!-- ================= HERO ================= -->
 <header>
     <h1>Janice Kemunto</h1>
 
-    <h3>SOC Analyst | Cybersecurity Engineer | Threat Intelligence | Cloud Security</h3>
+    <h3>Cybersecurity Analyst</h3>
 
-    <p style="max-width:850px;margin:auto;color:#cbd5e1;margin-top:15px;">
-        Cybersecurity professional specializing in Security Operations Center (SOC) monitoring,
-        incident response, threat intelligence analysis, malware investigation, phishing analysis,
-        and cloud security environments. Passionate about detecting, analyzing, and responding to cyber threats
-        through structured security operations and real-world lab simulations.
+    <p>
+        Cybersecurity professional with hands-on experience in SOC operations, incident response,
+        DFIR investigations, threat intelligence, malware analysis, phishing investigations, and SOAR automation.
+        Focused on detecting, analyzing, and responding to cyber threats using real-world security tools and lab environments.
     </p>
-
-    <a href="https://github.com/Janice-kemunto" class="btn">View GitHub</a>
 </header>
 
-<!-- ================= NAVIGATION ================= -->
+<!-- ================= NAV ================= -->
 <nav>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
-    <a href="#labs">Lab Challenges</a>
+    <a href="#labs">Labs</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -42,13 +39,13 @@
     <div class="grid">
 
         <div class="box">
-            <h3>Security Operations</h3>
-            <p>Incident Response, Threat Hunting, SOC Monitoring, Log Analysis</p>
+            <h3>SOC Operations</h3>
+            <p>Incident Response, Threat Hunting, Alert Triage, Log Analysis</p>
         </div>
 
         <div class="box">
             <h3>SIEM & Monitoring</h3>
-            <p>Wazuh, Microsoft Sentinel, Splunk, ELK Stack</p>
+            <p>Wazuh, Splunk, Microsoft Sentinel, ELK Stack</p>
         </div>
 
         <div class="box">
@@ -57,18 +54,18 @@
         </div>
 
         <div class="box">
-            <h3>Malware Analysis</h3>
-            <p>Behavior analysis, IOC extraction, sandbox investigation, file inspection</p>
+            <h3>Malware & Phishing Analysis</h3>
+            <p>IOC extraction, sandbox analysis, email header investigation</p>
         </div>
 
         <div class="box">
-            <h3>Phishing Analysis</h3>
-            <p>Email header analysis, URL inspection, spoofing detection, reputation checks</p>
+            <h3>DFIR & Forensics</h3>
+            <p>Windows event log analysis, endpoint investigation, basic forensic artifacts</p>
         </div>
 
         <div class="box">
             <h3>Cloud & Networking</h3>
-            <p>Microsoft Azure, AWS (In Progress), Wireshark, TCP/IP, DNS, Nmap</p>
+            <p>Microsoft Azure, AWS basics, Wireshark, TCP/IP, DNS, Nmap</p>
         </div>
 
     </div>
@@ -79,108 +76,99 @@
     <h2>Cybersecurity Projects</h2>
 
     <div class="card">
-        <h3>Azure Cyber Defense SOC Lab</h3>
-        <p>
-            Designed and deployed a simulated SOC environment using Microsoft Azure.
-            Configured Windows Server and Windows 10 virtual machines to simulate enterprise infrastructure
-            for security monitoring and incident detection practice.
-        </p>
-        <p>
-            The lab focused on understanding how SOC environments operate in cloud infrastructure,
-            including endpoint monitoring, log generation, and security telemetry analysis.
-        </p>
+        <h3>Azure SOC Cyber Defense Lab</h3>
+        <ul>
+            <li>Built a SOC-like environment using Microsoft Azure virtual machines</li>
+            <li>Configured Windows Server and Windows endpoints for monitoring simulation</li>
+            <li>Generated logs and analyzed security telemetry for threat detection</li>
+            <li>Practiced cloud-based SOC operations and visibility into endpoint activity</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>Wazuh SIEM Security Monitoring</h3>
-        <p>
-            Deployed Wazuh SIEM and configured multiple Windows agents to centralize security logs
-            for real-time monitoring and alert generation.
-        </p>
-        <p>
-            Used SIEM dashboards to analyze authentication events, detect anomalies, and investigate
-            suspicious system behavior across endpoints.
-        </p>
-        <p>
-            This project demonstrated how SOC teams use correlation rules and log analysis to identify threats
-            and reduce alert fatigue.
-        </p>
+        <h3>Wazuh SIEM Security Monitoring System</h3>
+        <ul>
+            <li>Deployed Wazuh SIEM with multiple Windows agents</li>
+            <li>Centralized log collection for real-time security monitoring</li>
+            <li>Analyzed authentication and system events for anomalies</li>
+            <li>Investigated alerts using SIEM dashboards and correlation rules</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>TheHive & Cortex Threat Intelligence Platform</h3>
-        <p>
-            Implemented a full incident response workflow using TheHive and Cortex.
-            Integrated external intelligence sources like VirusTotal for IOC enrichment.
-        </p>
-        <p>
-            Simulated SOC case management processes including alert intake, enrichment, investigation,
-            and structured reporting.
-        </p>
-        <p>
-            This strengthened my understanding of the SOC investigation lifecycle from detection to resolution.
-        </p>
+        <h3>TheHive & Cortex SOAR Platform</h3>
+        <ul>
+            <li>Built an incident response workflow using TheHive and Cortex</li>
+            <li>Integrated VirusTotal for automated IOC enrichment</li>
+            <li>Simulated SOC case management lifecycle from alert to resolution</li>
+            <li>Practiced structured investigation and reporting processes</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>Phishing Investigation Lab</h3>
-        <p>
-            Conducted detailed phishing analysis by examining email headers, sender reputation,
-            and embedded URLs to identify malicious intent.
-        </p>
-        <p>
-            Used VirusTotal and URLScan to analyze suspicious links and extract Indicators of Compromise (IOCs).
-        </p>
-        <p>
-            This exercise improved my ability to detect phishing campaigns, one of the most common
-            real-world attack vectors in SOC environments.
-        </p>
+        <h3>Phishing Investigation & Analysis</h3>
+        <ul>
+            <li>Analyzed phishing emails to identify malicious intent</li>
+            <li>Examined email headers for spoofing and sender manipulation</li>
+            <li>Validated URLs using VirusTotal and URLScan</li>
+            <li>Extracted Indicators of Compromise (IOCs) for reporting</li>
+        </ul>
     </div>
 
 </section>
 
 <!-- ================= LABS ================= -->
 <section id="labs">
-    <h2>Lab Challenges & CTF Work</h2>
+    <h2>Lab Challenges & DFIR Work</h2>
 
     <div class="card">
         <h3>Phishing Email Investigation</h3>
-        <p><strong>Objective:</strong> Identify and analyze phishing emails targeting users.</p>
-        <p><strong>Process:</strong> Examined email headers, sender domains, and embedded URLs.</p>
-        <p><strong>Tools:</strong> VirusTotal, PhishTool, URLScan</p>
-        <p><strong>Outcome:</strong> Identified spoofed sender identity, malicious links, and extracted IOCs for reporting.</p>
+        <ul>
+            <li>Analyzed email headers to trace sender origin and detect spoofing attempts</li>
+            <li>Checked domain reputation and identified impersonation indicators</li>
+            <li>Investigated embedded URLs for malicious activity</li>
+            <li>Extracted IOCs for SOC escalation and reporting</li>
+        </ul>
     </div>
 
     <div class="card">
         <h3>Malware Behavior Analysis</h3>
-        <p><strong>Objective:</strong> Analyze suspicious files for malicious activity patterns.</p>
-        <p><strong>Process:</strong> Observed execution behavior in sandboxed environments and reviewed file metadata.</p>
-        <p><strong>Tools:</strong> VirusTotal, sandbox tools, Windows environment</p>
-        <p><strong>Outcome:</strong> Identified persistence techniques, suspicious execution behavior, and malware indicators.</p>
+        <ul>
+            <li>Analyzed suspicious files in sandbox environments</li>
+            <li>Observed persistence mechanisms and registry changes</li>
+            <li>Monitored network connections initiated by malware</li>
+            <li>Identified behavioral indicators of compromise</li>
+        </ul>
     </div>
 
     <div class="card">
         <h3>Network Traffic Analysis</h3>
-        <p><strong>Objective:</strong> Detect suspicious communication patterns in network traffic.</p>
-        <p><strong>Process:</strong> Analyzed packet captures and inspected DNS, HTTP, and TCP traffic.</p>
-        <p><strong>Tools:</strong> Wireshark, TCPDump, Nmap</p>
-        <p><strong>Outcome:</strong> Detected anomalies and potential malicious communications between hosts.</p>
+        <ul>
+            <li>Captured and analyzed packets using Wireshark</li>
+            <li>Filtered DNS, HTTP, and TCP traffic for anomalies</li>
+            <li>Identified suspicious external communications</li>
+            <li>Reconstructed sessions using packet inspection techniques</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>Windows Incident Response Simulation</h3>
-        <p><strong>Objective:</strong> Investigate endpoint compromise using SOC workflow.</p>
-        <p><strong>Process:</strong> Performed triage, log analysis, and system investigation.</p>
-        <p><strong>Tools:</strong> TheHive, Windows, Linux</p>
-        <p><strong>Outcome:</strong> Completed full incident response lifecycle including containment and reporting.</p>
+        <h3>Windows DFIR Incident Response</h3>
+        <ul>
+            <li>Performed endpoint forensic investigation using Windows logs</li>
+            <li>Analyzed system processes and suspicious activities</li>
+            <li>Investigated persistence mechanisms (startup, registry, tasks)</li>
+            <li>Completed SOC-style triage, containment, and reporting workflow</li>
+        </ul>
     </div>
 
     <div class="card">
         <h3>ELK Stack Security Monitoring</h3>
-        <p><strong>Objective:</strong> Build centralized logging and monitoring system.</p>
-        <p><strong>Process:</strong> Configured Elasticsearch, Logstash, and Kibana dashboards.</p>
-        <p><strong>Tools:</strong> ELK Stack</p>
-        <p><strong>Outcome:</strong> Created dashboards for security event visualization and threat detection.</p>
+        <ul>
+            <li>Built centralized logging system using ELK Stack</li>
+            <li>Created dashboards for security event visualization</li>
+            <li>Detected anomalies through log correlation</li>
+            <li>Simulated attacks to test detection capabilities</li>
+        </ul>
     </div>
 
 </section>
@@ -191,15 +179,28 @@
 
     <div class="card">
         <p><strong>Email:</strong> janicekemunto5@gmail.com</p>
-        <p><strong>GitHub:</strong> https://github.com/Janice-kemunto</p>
+        <p><strong>GitHub:</strong> https://github.com/Janice-kemundo</p>
         <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/janice-kemunto</p>
         <p><strong>Phone:</strong> +254 733659675</p>
     </div>
+
+    <div class="card">
+        <h3>SOC Home Lab ( SOAR Automation)</h3>
+        <ul>
+            <li>Built a personal SOC lab for cybersecurity simulations and training</li>
+            <li>Integrated Wazuh SIEM, TheHive, and TheHive for detection and response</li>
+            <li>Implemented SOAR-like automation for IOC enrichment and case creation</li>
+            <li>Simulated phishing, malware, and intrusion scenarios in a controlled environment</li>
+            <li>Performed DFIR investigations including log analysis and endpoint forensics</li>
+            <li>Practiced full SOC lifecycle: detection → analysis → response → reporting</li>
+        </ul>
+    </div>
+
 </section>
 
 <!-- ================= FOOTER ================= -->
 <footer>
-    © 2026 Janice Kemunto | Cybersecurity Analyst 
+    © 2026 Janice Kemunto | Cybersecurity Portfolio
 </footer>
 
 </body>
