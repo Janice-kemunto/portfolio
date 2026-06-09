@@ -11,6 +11,30 @@
 
 <body>
 
+<!-- ================= HERO SECTION ================= -->
+<header>
+    <h1>Janice Kemunto</h1>
+
+    <h3>SOC Analyst | Cybersecurity Engineer | Threat Intelligence | Cloud Security</h3>
+
+    <p style="max-width:850px;margin:auto;color:#cbd5e1;margin-top:15px;">
+        Cybersecurity professional specializing in Security Operations Center (SOC) monitoring,
+        incident response, threat intelligence analysis, malware investigation, phishing analysis,
+        and cloud security environments. Passionate about detecting, analyzing, and responding to cyber threats
+        through structured security operations and real-world lab simulations.
+    </p>
+
+    <a href="https://github.com/Janice-kemunto" class="btn">View GitHub</a>
+</header>
+
+<!-- ================= NAVIGATION ================= -->
+<nav>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#labs">Lab Challenges</a>
+    <a href="#contact">Contact</a>
+</nav>
+
 <!-- ================= SKILLS ================= -->
 <section id="skills">
     <h2>Technical Skills</h2>
@@ -34,12 +58,12 @@
 
         <div class="box">
             <h3>Malware Analysis</h3>
-            <p>Basic malware behavior analysis, IOC extraction, sandbox investigation, file analysis</p>
+            <p>Behavior analysis, IOC extraction, sandbox investigation, file inspection</p>
         </div>
 
         <div class="box">
             <h3>Phishing Analysis</h3>
-            <p>Email header analysis, URL inspection, sender reputation checks, PhishTool, VirusTotal</p>
+            <p>Email header analysis, URL inspection, spoofing detection, reputation checks</p>
         </div>
 
         <div class="box">
@@ -55,34 +79,61 @@
     <h2>Cybersecurity Projects</h2>
 
     <div class="card">
-        <h3>Azure Cyber Defense Lab</h3>
+        <h3>Azure Cyber Defense SOC Lab</h3>
         <p>
-            Built a cloud-based SOC environment in Microsoft Azure using Windows Server
-            and Windows 10 endpoints for security monitoring and analysis.
+            Designed and deployed a simulated SOC environment using Microsoft Azure.
+            Configured Windows Server and Windows 10 virtual machines to simulate enterprise infrastructure
+            for security monitoring and incident detection practice.
+        </p>
+        <p>
+            The lab focused on understanding how SOC environments operate in cloud infrastructure,
+            including endpoint monitoring, log generation, and security telemetry analysis.
         </p>
     </div>
 
     <div class="card">
-        <h3>Wazuh SIEM Deployment</h3>
+        <h3>Wazuh SIEM Security Monitoring</h3>
         <p>
-            Configured Wazuh SIEM with Windows agents to collect logs, detect threats,
-            and monitor security events in real time.
+            Deployed Wazuh SIEM and configured multiple Windows agents to centralize security logs
+            for real-time monitoring and alert generation.
+        </p>
+        <p>
+            Used SIEM dashboards to analyze authentication events, detect anomalies, and investigate
+            suspicious system behavior across endpoints.
+        </p>
+        <p>
+            This project demonstrated how SOC teams use correlation rules and log analysis to identify threats
+            and reduce alert fatigue.
         </p>
     </div>
 
     <div class="card">
         <h3>TheHive & Cortex Threat Intelligence Platform</h3>
         <p>
-            Implemented a threat intelligence and incident response system for case management,
-            enrichment, and investigation workflows.
+            Implemented a full incident response workflow using TheHive and Cortex.
+            Integrated external intelligence sources like VirusTotal for IOC enrichment.
+        </p>
+        <p>
+            Simulated SOC case management processes including alert intake, enrichment, investigation,
+            and structured reporting.
+        </p>
+        <p>
+            This strengthened my understanding of the SOC investigation lifecycle from detection to resolution.
         </p>
     </div>
 
     <div class="card">
         <h3>Phishing Investigation Lab</h3>
         <p>
-            Investigated suspicious emails using header analysis, URL scanning, and reputation checks
-            to detect phishing attempts and extract indicators of compromise (IOCs).
+            Conducted detailed phishing analysis by examining email headers, sender reputation,
+            and embedded URLs to identify malicious intent.
+        </p>
+        <p>
+            Used VirusTotal and URLScan to analyze suspicious links and extract Indicators of Compromise (IOCs).
+        </p>
+        <p>
+            This exercise improved my ability to detect phishing campaigns, one of the most common
+            real-world attack vectors in SOC environments.
         </p>
     </div>
 
@@ -94,40 +145,62 @@
 
     <div class="card">
         <h3>Phishing Email Investigation</h3>
-        <p><strong>Objective:</strong> Investigate suspicious email for phishing indicators.</p>
+        <p><strong>Objective:</strong> Identify and analyze phishing emails targeting users.</p>
+        <p><strong>Process:</strong> Examined email headers, sender domains, and embedded URLs.</p>
         <p><strong>Tools:</strong> VirusTotal, PhishTool, URLScan</p>
-        <p><strong>Outcome:</strong> Identified malicious links, spoofed sender behavior, and extracted IOCs.</p>
+        <p><strong>Outcome:</strong> Identified spoofed sender identity, malicious links, and extracted IOCs for reporting.</p>
     </div>
 
     <div class="card">
-        <h3>Malware Behavior Analysis (Basic)</h3>
-        <p><strong>Objective:</strong> Analyze suspicious file behavior and identify malicious patterns.</p>
-        <p><strong>Tools:</strong> VirusTotal, Sandbox tools, Windows environment</p>
-        <p><strong>Outcome:</strong> Identified suspicious execution behavior, file indicators, and potential persistence techniques.</p>
+        <h3>Malware Behavior Analysis</h3>
+        <p><strong>Objective:</strong> Analyze suspicious files for malicious activity patterns.</p>
+        <p><strong>Process:</strong> Observed execution behavior in sandboxed environments and reviewed file metadata.</p>
+        <p><strong>Tools:</strong> VirusTotal, sandbox tools, Windows environment</p>
+        <p><strong>Outcome:</strong> Identified persistence techniques, suspicious execution behavior, and malware indicators.</p>
     </div>
 
     <div class="card">
         <h3>Network Traffic Analysis</h3>
-        <p><strong>Objective:</strong> Analyze packet capture for suspicious network activity.</p>
+        <p><strong>Objective:</strong> Detect suspicious communication patterns in network traffic.</p>
+        <p><strong>Process:</strong> Analyzed packet captures and inspected DNS, HTTP, and TCP traffic.</p>
         <p><strong>Tools:</strong> Wireshark, TCPDump, Nmap</p>
-        <p><strong>Outcome:</strong> Detected abnormal traffic patterns and identified indicators of compromise.</p>
+        <p><strong>Outcome:</strong> Detected anomalies and potential malicious communications between hosts.</p>
     </div>
 
     <div class="card">
         <h3>Windows Incident Response Simulation</h3>
-        <p><strong>Objective:</strong> Simulated endpoint compromise and performed SOC investigation.</p>
+        <p><strong>Objective:</strong> Investigate endpoint compromise using SOC workflow.</p>
+        <p><strong>Process:</strong> Performed triage, log analysis, and system investigation.</p>
         <p><strong>Tools:</strong> TheHive, Windows, Linux</p>
-        <p><strong>Outcome:</strong> Completed triage, containment, eradication, and reporting workflow.</p>
+        <p><strong>Outcome:</strong> Completed full incident response lifecycle including containment and reporting.</p>
     </div>
 
     <div class="card">
         <h3>ELK Stack Security Monitoring</h3>
-        <p><strong>Objective:</strong> Build centralized log monitoring system.</p>
-        <p><strong>Tools:</strong> Elasticsearch, Logstash, Kibana</p>
-        <p><strong>Outcome:</strong> Created dashboards for security event visualization and detection.</p>
+        <p><strong>Objective:</strong> Build centralized logging and monitoring system.</p>
+        <p><strong>Process:</strong> Configured Elasticsearch, Logstash, and Kibana dashboards.</p>
+        <p><strong>Tools:</strong> ELK Stack</p>
+        <p><strong>Outcome:</strong> Created dashboards for security event visualization and threat detection.</p>
     </div>
 
 </section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+        <p><strong>Email:</strong> janicekemunto5@gmail.com</p>
+        <p><strong>GitHub:</strong> https://github.com/Janice-kemunto</p>
+        <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/janice-kemunto</p>
+        <p><strong>Phone:</strong> +254 733659675</p>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    © 2026 Janice Kemunto | Cybersecurity Analyst 
+</footer>
 
 </body>
 </html>
